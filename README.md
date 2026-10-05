@@ -55,45 +55,6 @@
 
 ---
 
-## Getting Started & How to Run
-
-### Prerequisites
-- **Java Development Kit (JDK 17 or later)**: Ensure JDK 17+ is installed (`java -version`).
-- **Maven**: Included in the repository via the Maven Wrapper (`mvnw` / `mvnw.cmd`).
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Ramesha-Dasangi/RouteWise.git
-cd RouteWise
-```
-
-### 2. Run Using Maven Wrapper (CLI / Terminal)
-Open PowerShell or Command Prompt in the project root and execute:
-
-```powershell
-# Windows
-.\mvnw.cmd javafx:run
-
-# Linux / macOS
-./mvnw javafx:run
-```
-
-### 3. Run in IntelliJ IDEA
-1. Open IntelliJ IDEA and choose **Open**, then select the `RouteWise` root directory.
-2. Wait for Maven dependencies to download and index.
-3. Navigate to:
-   `src/main/java/com/nibm/routewise/AppLauncher.java`
-4. Click the green **Run (▶)** button next to `public class AppLauncher`.
-   *(Alternatively, in the Maven tool panel on the right: `Plugins` > `javafx` > `javafx:run`)*
-
-### 4. Running Unit Tests
-Execute the custom data structure unit tests with:
-```powershell
-.\mvnw.cmd test
-```
-
----
-
 ## Project Structure
 
 ```text
